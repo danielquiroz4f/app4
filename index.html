@@ -1,0 +1,288 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contaminacion</title>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!-- grupo javascript-->
+<script src ="js/jquery-1.11.2.min.js"></script>
+<script src ="js/jquery.mobile-1.4.5.min.js"></script>
+<!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+<script src ="phonegap.js"></script><!-- Necesario-->
+
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/Nueva carpeta/agua2.jpg','imagenes/Nueva carpeta/aire2.jpg','imagenes/contaminacion2.jpg','imagenes/tipos/reciclar1.jpg','imagenes/tipos/reciclando2.jpg')">
+
+<div data-role="page" id "Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Contaminacion en mi comunidad</h1>
+</div>
+
+<div>
+ <ul data-role="listview" data-theme="b" class="ul-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Definicion    </h2>
+    </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de contaminacion     </h2>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Consecuencias     </h2>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Reciclaje     </h2>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Como combatir la contaminacion    </h2>
+     </a>
+   </li>
+  </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion Cuatro</h4>
+       <h4>Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+ </div>   
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Definicion</h1>
+  </div>
+  <div data-role="comntent" align="center">
+  <div>
+    <p>La contaminación es la presencia o acumulación de sustancias en el medio ambiente que afectan negativamente el entorno y las condiciones de vida, así como la salud o la higiene de los seres vivos. Con este significado también se suele utilizar el concepto de contaminación ambiental.</p>
+
+<p>Como contaminación también se denomina una alteración en una sustancia o un producto, como un alimento o una muestra. Por ejemplo: “La contaminación de las muestras obligó a los científicos a recoger nuevas muestras.</p>
+
+<p>Esta palabra procede del latín contaminatĭo, contaminatiōnis, que se deriva del verbo contamināre, que significa ‘corromper, ensuciar o alterar por el contacto’.</p>
+<p>&nbsp;</p>
+<div data-role="main" class="ul-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Contaminacion</h1>
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contaminacion','','imagenes/contaminacion2.jpg',1)"><img src="imagenes/contaminacion.jpg" width="60%" height="60%" id="contaminacion"></a></p>
+    <div>
+     
+    </div>
+  </div>
+</div>
+ </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+     <h4>Aplicacion Cuatro, Daniel Quiroz Garcia</h4>
+  </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Tipos de contaminacion</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+     <p>Existen diferentes tipos de contaminación dependiendo del ámbito en que se produzcan las alteraciones de las condiciones normales para la vida</p>
+     <h2>Contaminación del agua</h2>
+     <p>La contaminación del agua es una modificación o alteración del agua que tiene consecuencias negativas en el medio ambiente y en los seres vivos. También se utiliza el concepto de contaminación hídrica. El ser humano es el principal responsable de la contaminación del agua, especialmente a través del vertido de aguas residuales, que no han sido tratadas y que proceden de actividades como la industria, la ganadería y la agricultura, en dicho medio. Se pueden distinguir tres tipos de agentes contaminantes del agua: físicos, químicos y biológicos.</p>
+   <div data-role="main" class="ul-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+    <p><img src="imagenes/tipos/agua.jpg" width="600" height="399"></p>
+    <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/Nueva carpeta/agua2.jpg',1)"></a>
+     </div>
+  </div>
+</div>
+<h2>Contaminación del aire</h2>
+     <p>La contaminación del aire es la existencia de partículas sólidas, líquidas y gases perjudiciales para los seres vivos y el entorno. En ocasiones, se utilizan términos semejantes como contaminación atmosférica. La contaminación del aire puede provocar graves problemas de salud a través de la inhalación de sustancias tóxicas. Puede proceder de fuentes naturales como, por ejemplo, la erupción de un volcán, o de la acción del ser humano. Algunas de estas sustancias contaminantes del aire son el monóxido de carbono, el ozono y el metano. El smog, una especie de niebla formada por una mezcla de humo y partículas en suspensión, es una evidencia de la contaminación del aire en las ciudades industriales.</p>
+     <div data-role="main" class="ul-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+    <p><img src="imagenes/tipos/aire.jpg" width="600" height="450"></p>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/Nueva carpeta/aire2.jpg',1)"></a>
+     </div>
+  </div>
+</div>
+<h2>Contaminación del suelo</h2>
+     <p>La contaminación del suelo es la presencia de sustancias que afectan negativamente las características y propiedades del suelo y que provocan desequilibrios físicos, químicos y biológicos que afectan de forma negativa a los seres vivos y el entorno. El suelo se puede contaminar por influencia del aire o del agua, que introduce agentes contaminantes, pero también al acumular o arrojar sustancias nocivas como los fertilizantes. Algunas consecuencias considerables de la contaminación del suelo son el aumento de la erosión y la disminución de la fertilidad del terreno.</p>
+     <div data-role="main" class="ul-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+    <p><img src="imagenes/tipos/suelo.jpg" width="600" height="325"></p>
+    <div></div>
+  </div>
+</div>
+     <h2>Contaminación visual</h2>
+     <p>La contaminación visual es la modificación de un entorno producida por la existencia de uno o varios elementos, cuya presencia impide o perjudica la visibilidad o afecta negativamente la estética de un lugar. La contaminación visual puede tener consecuencias perjudiciales para la salud, como el estrés. Algunos ejemplos de contaminación visual son la acumulación de carteles publicitarios en las carreteras o espacios urbanos, o la construcción de edificios en zonas protegidas.</p>
+      <div data-role="main" class="ul-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>imagen</h1>
+    <p><img src="imagenes/tipos/visual.jpg" width="600" height="400"></p>
+    <div></div>
+    </div>
+      </div>
+      <div data-role="main" class="ul-content">
+        <div data-role="collapsible" data-content-theme="false">
+          <div></div>
+  </div>
+</div>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Cuatro, Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+ 
+ 
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Consecuencias</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2>Consecuencias</h2>
+     <p>Existen varios tipos de consecuencias como el debilitamiento de la capa de ozono, problemas para la salud, contamina el agua, el suelo, el aire, a los animales y al derretimiento de los polos.</p>
+  </div>
+    </div>
+    <div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/acustica.jpg" alt="acustica" title="acustica" id="wows1_0"/></li>
+		<li><img src="data1/images/agua.jpg" alt="agua" title="agua" id="wows1_1"/></li>
+		<li><img src="data1/images/aire.jpg" alt="aire" title="aire" id="wows1_2"/></li>
+		<li><img src="data1/images/suelo.jpg" alt="suelo" title="suelo" id="wows1_3"/></li>
+		<li><img src="data1/images/visual.jpg" alt="visual" title="visual" id="wows1_4"/></li>
+		<li><img src="data1/images/contaminacion.jpg" alt="contaminacion" title="contaminacion" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/contaminacion2.jpg" alt="http://wowslider.com/" title="contaminacion2" id="wows1_6"/></a></li>
+		<li><img src="data1/images/animales.jpg" alt="animales" title="animales" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="acustica"><span><img src="data1/tooltips/acustica.jpg" alt="acustica"/>1</span></a>
+		<a href="#" title="agua"><span><img src="data1/tooltips/agua.jpg" alt="agua"/>2</span></a>
+		<a href="#" title="aire"><span><img src="data1/tooltips/aire.jpg" alt="aire"/>3</span></a>
+		<a href="#" title="suelo"><span><img src="data1/tooltips/suelo.jpg" alt="suelo"/>4</span></a>
+		<a href="#" title="visual"><span><img src="data1/tooltips/visual.jpg" alt="visual"/>5</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/contaminacion.jpg" alt="contaminacion"/>6</span></a>
+		<a href="#" title="contaminacion2"><span><img src="data1/tooltips/contaminacion2.jpg" alt="contaminacion2"/>7</span></a>
+		<a href="#" title="animales"><span><img src="data1/tooltips/animales.jpg" alt="animales"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Cuatro, Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Reciclaje</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <p>El reciclaje es un proceso donde las materias primas que componen los materiales que usamos en la vida diaria como el papel, vidrio, aluminio, plástico, etc., una vez terminados su ciclo de vida útil, se transforman de nuevo en nuevos materiales.</p>
+     <div data-role="main" class="ul-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <div></div>
+  </div>
+</div>
+     <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('reciclar','','imagenes/tipos/reciclar1.jpg',1)"><img src="imagenes/tipos/reciclar.jpg" width="430" height="380" id="reciclar"></a></h2>
+     <div data-role="main" class="ul-content">
+       <div data-role="collapsible" data-content-theme="false">
+         <div></div>
+  </div>
+</div>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Cuatro, Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Como combatirla</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2>Propuestas</h2>
+     <p>Es inevitable el no generar basura con las acciones que hacemos dia a dia, por otro lado si podemos disminuir la cantidad de basura que generamos haciendo uso de bolsas de tela al ir a comprar a un centro comercial o super-mercado, otra cosa que podemos hacer de manera local es evitar usar tanta agua (lavar el carro con cubetas, bañarse en el menor tiempo etc) al igual que podemos rejuntar la basura que este a nuestro alrededor.</p>
+     <a href="https://ecoosfera.com/2016/03/15-maneras-sencillas-de-reducir-la-contaminacion-y-prevenir-la-contingencia-ambiental/" target="_self"> Otras propuestas </a>
+     
+     <p class="table-stroke">&nbsp;</p>
+     <p><a href="https://ecoosfera.com/2016/03/15-maneras-sencillas-de-reducir-la-contaminacion-y-prevenir-la-contingencia-ambiental/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('reciclando','','imagenes/tipos/reciclando2.jpg',1)"><img src="imagenes/tipos/reciclando.jpg" width="60%" height="60%" id="reciclando"></a></p>
+     </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Cuatro, Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+</body>
+</html>
